@@ -125,7 +125,7 @@
     },
     "gemini": {
       "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
-      "apiKey": "AIzaSyAnV3M_zO_JrvL6V8MnLEnAKSOiZUNvC_g",
+      "apiKey": "${GEMINI_API_KEY}",
       "api": "openai-completions",
       "models": [
         {

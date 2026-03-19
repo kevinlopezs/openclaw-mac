@@ -7,23 +7,78 @@
       "models": [
         {
           "id": "gemini-3.1-pro-preview",
-          "name": "Gemini 3.1 Pro Preview"
+          "name": "Gemini 3.1 Pro Preview",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "google-generative-ai"
         },
         {
           "id": "gemini-2.5-pro",
-          "name": "Gemini 2.5 Pro"
+          "name": "Gemini 2.5 Pro",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "google-generative-ai"
         },
         {
           "id": "gemini-2.0-flash",
-          "name": "Gemini 2.0 Flash"
+          "name": "Gemini 2.0 Flash",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "google-generative-ai"
         },
         {
           "id": "gemini-2.5-flash",
-          "name": "Gemini 2.5 Flash"
+          "name": "Gemini 2.5 Flash",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "google-generative-ai"
         },
         {
           "id": "gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite"
+          "name": "Gemini 2.5 Flash-Lite",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "google-generative-ai"
         }
       ]
     },
@@ -38,34 +93,100 @@
       "models": [
         {
           "id": "deepseek-chat",
-          "name": "DeepSeek Chat"
+          "name": "DeepSeek Chat",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         },
         {
           "id": "deepseek-reasoner",
-          "name": "DeepSeek R1"
+          "name": "DeepSeek R1",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         }
       ]
     },
     "gemini": {
       "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
-      "apiKey": "AIzaSyAnV3M_zO_JrvL6V8MnLEnAKSOiZUNvC_g",
+      "apiKey": "${GEMINI_API_KEY}",
       "api": "openai-completions",
       "models": [
         {
           "id": "gemini-3.1-pro-preview",
-          "name": "Gemini 3.1 Pro Preview"
+          "name": "Gemini 3.1 Pro Preview",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         },
         {
           "id": "gemini-2.0-flash",
-          "name": "Gemini 2.0 Flash"
+          "name": "Gemini 2.0 Flash",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         },
         {
           "id": "gemini-2.5-flash",
-          "name": "Gemini 2.5 Flash"
+          "name": "Gemini 2.5 Flash",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         },
         {
           "id": "gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite"
+          "name": "Gemini 2.5 Flash-Lite",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
         }
       ]
     }
