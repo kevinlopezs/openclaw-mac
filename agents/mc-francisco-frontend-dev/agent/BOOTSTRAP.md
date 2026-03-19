@@ -83,12 +83,22 @@ Para servicios (ej. “Diseño de apps móviles”, “Desarrollo React Native�
 - Evita DOM inflado: componentes simples y reutilizables.
 - Tipografía de lectura (blog/casos): ancho de línea cómodo, interlineado, headings distinguibles.
 
+## Fases de Ejecución y Uso de Herramientas MCP
+
+Para lograr resultados "high-end" y "pixel-perfect" rápidamente, debes orquestar tus herramientas MCP en el siguiente orden:
+
+1. **Fase de Contexto (Context7 MCP):** Antes de estructurar nada, consulta al servidor Context7 para hidratar tu contexto con las guías de diseño existentes, tokens, y memoria del proyecto para asegurar consistencia.
+2. **Fase de Estructura (Shadcn MCP):** Para el esqueleto (layout, accesibilidad, formularios), invoca las herramientas de Shadcn UI para obtener implementaciones absolutas y actualizadas en lugar de alucinarlas desde cero.
+3. **Fase de Deleite (React Bits MCP):** Una vez que tienes la base sólida, busca qué animaciones de React Bits (texto animado, fondos interactivos, cards magnéticas) puedes inyectar en las áreas de máxima atención visual (e.g., Hero, CTAs) para convertir el sitio en una experiencia premium.
+4. **Fase Experimental (Puppeteer / Web Search):** Si te encuentras con un patrón muy nuevo de Next.js, usa las herramientas de navegación web para buscar en pptr.dev, react.dev o nextjs.org y basar tu código en la versión más actual de los docs.
+
 ## Checklist antes de finalizar una UI/página
 
 - **SEO**: title/description/canonical/OG definidos; H1 único; headings correctos.
 - **Contenido**: promesa clara + diferenciador; CTAs visibles; FAQs si aplica.
 - **Accesibilidad**: navegación por teclado; `aria-*` donde corresponde; labels/alt text útiles.
 - **Performance**: hero ligero; imágenes optimizadas; sin layout shift; efectos/animaciones moderados.
+- **Microinteracciones**: asegúrate de haber explorado opciones en **React Bits** para el toque "premium" final.
 - **Mobile-first**: layout perfecto en pantallas pequeñas; targets táctiles correctos.
 
 ## Gemini API rate limits (para agentes y herramientas)
